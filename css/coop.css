@@ -1,0 +1,48 @@
+body {
+	font-family: Arial;
+}
+.coop {
+	background: url(../img/bg-coop.jpg) no-repeat center top / cover; 
+	height: 100vh;
+}
+.logo_coop img {
+	width: 120px;
+	height: 120px;
+}
+.coop_header {
+	margin-top: 20px;
+}
+.title_coop h3 {
+	text-shadow: black 0 0 5px;
+	position: absolute;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+.text_coop p {
+	line-height: 36px;
+	text-shadow: black 0 0 5px;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.text_coop {
+	margin-bottom: 60px;
+}
+.title_coop {
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+.main_block_coop {
+	margin-left: 150px;
+}
+@media (max-width: 575px) {
+.coop {
+	background: url(../img/bg-coop-mob.jpg) no-repeat center top / cover;
+	height: 900px;
+}
+.title_coop {
+	margin: 50px 0px 150px 0px;
+}
+.text_coop {
+	margin: 0px 0px 20px 0px;
+}
+}
