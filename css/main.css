@@ -1,0 +1,691 @@
+/* Header part */
+body {
+	
+	font-family: Arial;
+}
+section {
+	width: 100%;
+    overflow-x: hidden;
+}
+.header {
+	background: url(../img/bg_main_new.jpg) no-repeat center top / cover; 
+	height: 100vh;
+}
+.header img {
+	width: 120px;
+	height: 120px;
+}
+.menu {
+	list-style: none;
+}
+.menu img{
+	margin-top: 30px;
+	width: 50px;
+	height: 50px;
+}
+.dropdown-menu {
+	border: none;
+	background: none;
+}
+.button {
+	border: none;
+	background: none;
+}
+.main_title {
+	margin-top: 100px;
+}
+.title h1 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 96px;
+}
+.offer {
+	-webkit-animation: main 3s;
+	-o-animation: main 3s;
+	animation: main 3s;
+}
+@keyframes main {
+	from {
+		opacity: 0%;
+	}
+	to {
+		opacity: 100%;
+	}
+}
+.offer p {
+	text-align: center;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 22px;
+	letter-spacing: 0.10em;
+	line-height: 41px;
+}
+/* About part */
+/*.about {
+	border: 1px solid black;
+}*/
+.title_about {
+	margin-top: 80px;
+}
+.title_about h2 {
+	font-size: 50px;
+}
+.text {
+	margin-top: 70px;
+}
+.text p {
+	font-size: 20px;
+}
+.about__pic img {
+	margin-top: px;
+	margin-left: 100px;
+	width: 700px;
+	height: 500px;
+}
+/* Benefits */
+.Benefits {
+	border: 1px solid black;
+	background:
+    -webkit-linear-gradient(148deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    -webkit-linear-gradient(302deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+  background:
+    linear-gradient(302deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+ 
+   linear-gradient(148deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+}
+.ben {
+	margin-bottom: 100px;
+}
+.card {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.card-header {
+	background: black;
+}
+.shabl__img__shop img {
+	width: 150px;
+	height: 150px;
+}
+.shabl__img__gov img {
+	width: 150px;
+	height: 150px;
+}
+.shabl__img__bank img {
+	width: 150px;
+	height: 150px;
+}
+.shabl__img__man img {
+	width: 100px;
+	height: 250px;
+	margin-left: 40px;
+}
+.shabl__img__bill img {
+	width: 150px;
+	height: 150px;
+}
+.shabl__img__telecos img {
+	width: 100px;
+	height: 250px;
+	margin-left: 40px;
+}
+/*How it works*/
+.How {
+	border: 1px solid black;
+	background:
+    -webkit-linear-gradient(148deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    -webkit-linear-gradient(302deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+  background:
+    linear-gradient(302deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    linear-gradient(148deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+  }
+.last {
+	margin-bottom: 10px;
+}
+.title_about h3 {
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 35px;
+}
+.how {
+	background-color: #fac13c;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 10px;
+	padding-right: 20px;	
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.img__how img {
+	margin-top: 4px;
+	width: 50px;
+	height: 50px;
+}
+.arrow_how {
+	margin-top: 100px;
+	margin-left: -90px; 
+}
+.how_main img {
+	margin-top: 70px;
+	margin-left: -100px;
+	width: 180px;
+	height: 180px;
+}
+.sms {
+	margin-right: 300px;
+}
+.cross_img img {
+	height: 300px;
+	width: 600px;
+}
+.cross p {
+	margin-top: 25px;
+}
+.interact_img img {
+	margin-top: -50px;
+	margin-left: 50px;
+	width: 450px;
+	height: 350px;
+	padding-bottom: 50px;
+}
+/*Use Cases*/
+.Use_Cases {
+	border: 1px solid black;
+	background:
+    -webkit-linear-gradient(148deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    -webkit-linear-gradient(302deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+  background:
+    linear-gradient(302deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    linear-gradient(148deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+}
+.case h3 {
+	text-decoration: underline; 
+}
+.first_case img {
+	margin-top: 30px;
+	width: 700px;
+	height: 160px;
+}
+.second_case img {
+	margin-bottom: 50px;
+	margin-top: 30px;
+	width: 800px;
+	height: 530px;
+	margin-bottom: -50px;
+}
+.third_case img {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	width: 750px;
+	height: 160px;
+}
+/*Distribution Chain*/
+.Distribution {
+	border: 1px solid black;
+	background:
+    -webkit-linear-gradient(148deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    -webkit-linear-gradient(302deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+  background:
+    linear-gradient(302deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    linear-gradient(148deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+}
+.chain img {
+	margin-left: -100px;
+	width: 900px;
+	height: 550px
+}
+/*Cash*/
+.Cash {
+	border: 1px solid black;
+	background:
+    -webkit-linear-gradient(148deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    -webkit-linear-gradient(302deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+  background:
+    linear-gradient(302deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    linear-gradient(148deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+}
+.cash_img img {
+	margin-top: 50px;
+	width: 1100px;
+	height: 550px;
+	margin-bottom: 30px;
+}
+/*Remittances*/
+.remittances {
+	border: 1px solid black;
+	background:
+    -webkit-linear-gradient(148deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    -webkit-linear-gradient(302deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+  background:
+    linear-gradient(302deg, hsla(131.47, 18.95%, 41.94%, 1) 0%, hsla(131.47, 18.95%, 41.94%, 0) 100%),
+    linear-gradient(148deg, hsla(174.76, 7.03%, 66.05%, 1) 0%, hsla(174.76, 7.03%, 66.05%, 0) 65%);
+}
+.remittances_text img {
+	margin-top: -30px;
+	margin-left: -450px;
+	transform: scale(0.4);
+}
+.remittances_main img {
+	margin-bottom: -500px;
+	margin-top: -680px;
+	margin-left: -1100px;
+	transform: scale(0.3);
+}
+/*Contact*/
+.contacts {
+	background: url(../img/contact_bg.jpg) no-repeat center top / cover;
+}
+.border {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background: white;
+	padding: 20px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+}
+.contact__text p {
+	font-size: 20px;
+}
+
+@media (max-width: 575px) {
+.main_title h1 {
+	font-size: 68px;
+}
+.main_title {
+	margin-top: 190px;
+}
+.offer p {
+	text-align: center;
+	font-size: 20.5px;
+}
+.about__pic img {
+	margin-right: 110px;
+	width: 400px;
+	height: 300px;
+}
+.shabl__img__shop img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__gov img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__bank img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__man img {
+	width: 70px;
+	height: 220px;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.shabl__img__bill img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__telecos img {
+	width: 90px;
+	height: 220px;
+	margin-left: -5px;
+	margin-top: 20px;
+}
+.card {
+	margin-left: 60px;
+}
+.cross_img img {
+	margin-top: 10px;
+	margin-left: -10px;
+	width: 400px;
+	height: 150px
+}
+.interact_img img {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 380px;
+	height: 300px
+}
+.how_main img {
+	margin: 0 0px 0 -50px;
+}
+.sms {
+	margin: 0 280px 0 0px;
+}
+.first_case img {
+	margin-top: 30px;
+	width: 400px;
+	height: 100px;
+}
+.second_case img {
+	margin-bottom: 50px;
+	margin-top: 30px;
+	width: 400px;
+	height: 300px;
+	margin-bottom: -50px;
+}
+.third_case img {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-top: 30px;
+	width: 400px;
+	height: 100px;
+}
+.chain img {
+	margin-left: 0px;
+	width: 400px;
+	height: 280px
+}
+.cash_img img {
+	transform: scale(1.1);
+	margin-top: 70px;
+	width: 370px;
+	height: 220px;
+}
+.remittances_text img {
+	margin-top: -70px;
+	margin-left: -550px;
+	transform: scale(0.27);
+}
+.remittances_main img {
+	margin-bottom: -700px;
+	margin-top: -850px;
+	margin-left: -1460px;
+	transform: scale(0.12);
+}
+.border {
+	width: 400px;
+}
+}
+@media (min-width: 310px) and (max-width: 374px) {
+.main_title h1 {
+	font-size: 50px;
+}
+.main_title {
+	margin-top: 80px;
+}
+.offer p {
+	font-size: 18px;
+	text-align: center;
+}
+.about__pic img {
+	margin-right: 110px;
+	width: 310px;
+	height: 190px;
+}
+.shabl__img__shop img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__gov img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__bank img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__man img {
+	width: 70px;
+	height: 220px;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.shabl__img__bill img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__telecos img {
+	width: 90px;
+	height: 220px;
+	margin-left: -5px;
+	margin-top: 20px;
+}
+.card {
+	margin-left: 0px;
+	margin-top: 5px;
+}
+.cross_img img {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 300px;
+	height: 120px
+}
+.interact_img img {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 300px;
+	height: 260px
+}
+.how_main img {
+	margin: 0 0px 0 -50px;
+}
+.sms {
+	margin: 0 180px 0 0px;
+}
+.first_case img {
+	margin-top: 30px;
+	width: 310px;
+	height: 70px;
+}
+.second_case img {
+	margin-left: -10px;
+	margin-top: 30px;
+	width: 310px;
+	height: 220px;
+}
+.third_case img {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-top: 30px;
+	width: 310px;
+	height: 70px;
+}
+.chain img {
+	margin-left: 0px;
+	width: 310px;
+	height: 230px
+}
+.cash_img img {
+	transform: scale(1.1);
+	margin-top: 20px;
+	width: 290px;
+	height: 150px;
+}
+.remittances_text img {
+	margin-top: -120px;
+	margin-left: -600px;
+	transform: scale(0.2);
+}
+.remittances_main img {
+	margin-bottom: -700px;
+	margin-top: -880px;
+	margin-left: -1500px;
+	transform: scale(0.09);
+}
+.border {
+	width: 310px;
+}
+}
+@media (width: 375px) {
+.main_title h1 {
+	font-size: 62px;
+}
+.main_title {
+	margin-top: 160px;
+}
+.offer p {
+	text-align: center;
+	font-size: 20px;
+}
+.menu__item {
+	margin-right: 35px;
+}
+.about__pic img {
+	margin-right: 110px;
+	width: 350px;
+	height: 230px;
+}
+.shabl__img__shop img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__gov img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__bank img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__man img {
+	width: 70px;
+	height: 220px;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.shabl__img__bill img {
+	width: 80px;
+	height: 80px;
+}
+.shabl__img__telecos img {
+	width: 90px;
+	height: 220px;
+	margin-left: -5px;
+	margin-top: 20px;
+}
+.card {
+	margin-top: 5px;
+}
+.cross_img img {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 350px;
+	height: 150px
+}
+.interact_img img {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 350px;
+	height: 280px
+}
+.how_main img {
+	margin: 0 0px 0 -50px;
+}
+.sms {
+	margin: 0 230px 0 0px;
+}
+.first_case img {
+	margin-top: 30px;
+	width: 350px;
+	height: 80px;
+}
+.second_case img {
+	margin-left: -10px;
+	margin-top: 30px;
+	width: 350px;
+	height: 220px;
+}
+.third_case img {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-top: 30px;
+	width: 350px;
+	height: 80px;
+}
+.chain img {
+	margin-left: 0px;
+	width: 350px;
+	height: 230px
+}
+.cash_img img {
+	transform: scale(1.1);
+	margin-top: 20px;
+	width: 340px;
+	height: 180px;
+}
+.remittances_text img {
+	margin-top: -120px;
+	margin-left: -570px;
+	transform: scale(0.25);
+}
+.remittances_main img {
+	margin-bottom: -700px;
+	margin-top: -880px;
+	margin-left: -1480px;
+	transform: scale(0.11);
+}
+.border {
+	width: 360px;
+}
+}
+@media (min-width: 376px) and (max-width: 410px) {
+.main_title h1 {
+	font-size: 63px;
+}
+.main_title {
+	margin-top: 160px;
+}
+.offer p {
+	text-align: center;
+	font-size: 20px;
+}
+.about__pic img {
+	margin-right: 110px;
+	width: 360px;
+	height: 240px;
+}
+.cross_img img {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 360px;
+	height: 150px
+}
+.interact_img img {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 360px;
+	height: 280px
+}
+.first_case img {
+	margin-top: 30px;
+	width: 370px;
+	height: 90px;
+}
+.second_case img {
+	margin-left: -10px;
+	margin-top: 30px;
+	width: 370px;
+	height: 240px;
+}
+.third_case img {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-top: 30px;
+	width: 370px;
+	height: 90px;
+}
+.chain img {
+	margin-left: 0px;
+	width: 360px;
+	height: 230px
+}
+.cash_img img {
+	transform: scale(1.1);
+	margin-top: 20px;
+	width: 350px;
+	height: 195px;
+}
+.remittances_text img {
+	margin-top: -120px;
+	margin-left: -570px;
+	transform: scale(0.257);
+}
+.remittances_main img {
+	margin-bottom: -700px;
+	margin-top: -880px;
+	margin-left: -1470px;
+	transform: scale(0.1150);
+}
+.border {
+	width: 360px;
+}
+}
